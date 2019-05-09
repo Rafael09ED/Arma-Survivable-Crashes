@@ -10,13 +10,13 @@ if (local _unit) then {
 		_dmg 	= _this select 2;
 		_index 	= _this select 5;
 		_health = _unit getHit _part;
-		
-		if(_index == -1) then { 
+
+		if(_index == -1) then {
 			_health = damage _unit;
-		} else { 
-			_health = _unit getHit _part; 
+		} else {
+			_health = _unit getHit _part;
 		};
-		
+
 		if ((vehicle _unit) getVariable ["r0ed_SurvivableCrashes", false] && _health + _dmg > .88) then {
 			_medicalSys = missionNamespace getVariable "r0ed_SurvivableCrashesVar_MedicalSystem";
 			switch (_medicalSys) do {

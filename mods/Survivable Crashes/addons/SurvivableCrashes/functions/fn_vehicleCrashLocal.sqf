@@ -5,10 +5,10 @@ _damageMultiplier = missionNamespace getVariable "r0ed_SurvivableCrashesVar_Crew
 _crewPostCrashCode = missionNamespace getVariable "r0ed_SurvivableCrashesVar_CrewPostCrashCode";
 
 switch (_medicalSystem) do {
-    case "ACE": { 	
+    case "ACE": {
 		[_unit, 0.5] call ace_medical_fnc_adjustPainLevel;
 		[_unit, true, 30 + random 10] call ace_medical_fnc_setUnconscious;
-		_unit allowDamage false;		
+		_unit allowDamage false;
 	};
     case "VANILLA": { _unit allowDamage false;};
 	case "LIMIT_DAMAGE": { _unit allowDamage false;};
@@ -68,7 +68,7 @@ if (_visualEffectsEnabled && _unit == player) then {
 	waitUntil{sleep 1; isTouchingGround _unit};
 	sleep 2;
 	switch (_medicalSystem) do {
-		case "ACE": { 	
+		case "ACE": {
 			_unit allowDamage true;
 			[_unit,_unit] call ACE_medical_fnc_treatmentAdvanced_fullHealLocal;
 			{

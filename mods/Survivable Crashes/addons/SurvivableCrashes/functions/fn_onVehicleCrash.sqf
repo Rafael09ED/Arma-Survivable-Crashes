@@ -35,11 +35,11 @@ _veh allowDamage false;
 	if(_exagEffectsEnabled) then {
 		[_veh,_velocityVehPrev] call {
 		    params ["_veh", "_aproxVel"];
-			
+
 			_velocityVeh = velocity _veh;
 			_dir = (_velocityVeh select 0) atan2 (_velocityVeh select 1);
 			_speed = 4 + random 2;
-			
+
 			_velocityVeh = [(sin _dir) * _speed * sqrt abs(_velocityVeh select 0),
 				(cos _dir) * _speed * sqrt abs(_velocityVeh select 1),
 				(1 + random 4) * sqrt(abs(_aproxVel)) + .4 ]; // being tested - post 1.2.1

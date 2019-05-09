@@ -26,7 +26,7 @@
 			_handle ppEffectAdjust _rnd;
 			_handle ppEffectCommit 1 + random 5;
 			waitUntil {ppEffectCommitted _handle};
-			sleep 1; 
+			sleep 1;
 		};
 		_rnd = [];
 		{

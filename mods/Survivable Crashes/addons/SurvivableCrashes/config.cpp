@@ -1,15 +1,15 @@
 #define _ARMA_
 class DefaultEventhandlers;
-class CfgPatches 
-{ 
+class CfgPatches
+{
     class r0ed_SurvivableCrashes
-    { 
-        units[] = {"r0ed_ModuleSurvivableCrashes"}; 
+    {
+        units[] = {"r0ed_ModuleSurvivableCrashes"};
         requiredVersion = 1.0;
-        requiredAddons[] = {"A3_Modules_F"}; 
+        requiredAddons[] = {"A3_Modules_F"};
 		projectName = "Survivable Crashes";
 		author = "Rafael09ED";
-    }; 
+    };
 };
 class CfgFactionClasses
 {
@@ -31,7 +31,7 @@ class CfgVehicles
 	{
 		displayName = "Survivable Crashes Settings";
 		author = "Rafael09ED";
-		scope = 2; 
+		scope = 2;
 		category = "r0ed_SurvivableCrashes";
 		function = "r0ed_fnc_moduleSurvivableCrashes";
 		functionPriority = 5;
@@ -129,7 +129,7 @@ class CfgVehicles
 		class ModuleDescription: ModuleDescription
 		{
 			description = "Settings for Survivable Crashes mod";
-			sync[] = {}; 
+			sync[] = {};
 		};
 	};
 };
@@ -143,7 +143,7 @@ class Extended_PreInit_EventHandlers {
         init = "call compile preprocessFileLineNumbers '\r0ed_SurvivableCrashes\XEH_preInit.sqf'";
     };
 };
-class CfgFunctions 
+class CfgFunctions
 {
 	class r0ed
 	{
@@ -160,7 +160,7 @@ class CfgFunctions
 			class crashVisualEffects{};
 		};
 	};
-};	
+};
 class CfgSounds {
 	class AutorotationWarn
 	{
