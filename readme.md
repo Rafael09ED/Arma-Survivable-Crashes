@@ -1,17 +1,43 @@
-# Arma 3 Files
+# Arma 3 Survivable Crashes Mod
 
-This is a collection of scripts written by Rafael09ED.
+**Author:** Rafael09ED
 
+**Version:** 1.2.1
 
+Allows the crew of a vehicle to survive it's destruction and escape harmed. 
 
-### Mods:
+Works with ACE3 and Vanilla. Activated and customizable with a module in the editor.
+ACE must have Prevent Instant Death enabled.
 
-* [Survivable Crashes](https://github.com/Rafael09ED/Arma/tree/master/mods/Survivable%20Crashes "@SurvivableCrashes") - [BI Forums](https://forums.bistudio.com/topic/190516-survivable-crashes-shoot-downs-mod/) - [Video] (https://youtu.be/0KtNXxEG-Js?t=2m) 
+### Usage:
 
-### Scripts:
+- Create Survivable Crashes module in the editor
+- Launch mission
 
-* [Gear Templates](https://github.com/Rafael09ED/Arma/tree/master/scripts/GearTemplates.VR "GearTemplates.VR") - [BI Forums](https://forums.bistudio.com/topic/189834-release-gear-template-script/)
-* [Survivable Crashes](https://github.com/Rafael09ED/Arma/tree/master/scripts/SurvivableCrashes.VR "SurvivableCrashes.VR") - [BI Forums](https://forums.bistudio.com/topic/190291-release-survivable-crashes-script/)
+### Dependencies:
 
+- CBA
 
-## [Downloads](https://github.com/Rafael09ED/Arma/releases)
+### Change Log: 
+
+#### 1.2.1
+
+- Fixed Early Ejection
+
+#### 1.2
+
+- Optimized mod for when disabled
+- Fixed damage prevention when medical system on "None"
+- Added code parameter in module activated on crash
+
+#### 1.1
+
+- Added Vehicle Whitelist
+
+#### 1.0
+
+- Initial Release as Mod
+
+### Webpage: 
+
+https://github.com/Rafael09ED/Arma
