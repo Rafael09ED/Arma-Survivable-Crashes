@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="nln">
+	<Package name="main">
+		<Container name="credentials">
+			<Key ID="STR_r0ed_SurvivableCrashes_credentials_modName">
+				<Original>Survivable Crashes</Original>
+				<English>Survivable Crashes</English>
+			</Key>
+		</Container>
+	</Package>
+</Project>

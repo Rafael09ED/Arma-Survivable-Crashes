@@ -6,7 +6,7 @@ class CfgPatches
     {
         units[] = {"r0ed_ModuleSurvivableCrashes"};
         requiredVersion = 1.0;
-        requiredAddons[] = {"A3_Modules_F"};
+        requiredAddons[] = {"A3_Modules_F", "cba_settings"};
 		projectName = "Survivable Crashes";
 		author = "Rafael09ED";
     };
@@ -158,6 +158,11 @@ class CfgFunctions
 			file = "\r0ed_SurvivableCrashes\functions";
 			class vehicleCrashLocal{};
 			class crashVisualEffects{};
+		};
+		class util
+		{
+			file = "\r0ed_SurvivableCrashes\functions\util";
+			class log {};
 		};
 	};
 };
