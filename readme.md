@@ -1,6 +1,6 @@
 # Arma 3 Survivable Crashes Mod
 
-**Author:** Rafael09ED
+**Authors:** Rafael09ED, Arend
 
 **Version:** 1.2.1
 
@@ -18,26 +18,10 @@ ACE must have Prevent Instant Death enabled.
 
 - CBA
 
-### Change Log: 
+### Change Log:
 
-#### 1.2.1
+[Github Releases](https://github.com/Rafael09ED/Arma-Survivable-Crashes/releases)
 
-- Fixed Early Ejection
+### Webpage:
 
-#### 1.2
-
-- Optimized mod for when disabled
-- Fixed damage prevention when medical system on "None"
-- Added code parameter in module activated on crash
-
-#### 1.1
-
-- Added Vehicle Whitelist
-
-#### 1.0
-
-- Initial Release as Mod
-
-### Webpage: 
-
-https://github.com/Rafael09ED/Arma
+https://github.com/Rafael09ED/Arma-Survivable-Crashes
