@@ -22,6 +22,8 @@ ACE must have Prevent Instant Death enabled.
 
 [Github Releases](https://github.com/Rafael09ED/Arma-Survivable-Crashes/releases)
 
-### Webpage:
+### Links:
 
-https://github.com/Rafael09ED/Arma-Survivable-Crashes
+- Github Repo - https://github.com/Rafael09ED/Arma-Survivable-Crashes
+- BI Forums - https://forums.bistudio.com/topic/190516-survivable-crashes-shoot-downs-mod/
+- Vide Demonstration - https://youtu.be/0KtNXxEG-Js?t=2m
